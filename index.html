@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://use.fontawesome.com/6d0f33542d.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Artifika|Indie+Flower|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo App</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">ToDo App</h1>
+        <div class="jumbotron">
+             <label for="name"></label>            
+                <input id="todo" type="text" class="form-control" placeholder="Write your ToDo's">
+            <br>
+
+
+            <div class="well">
+                <ul id="list">
+
+
+                </ul>
+            
+            </div>           
+
+            <button id="addbtn" class="btn btn-danger btn-lg" onclick="add()"><i class="fa fa-spin fa-plus"></i></button>
+            <!-- <button class="btn btn-danger btn-lg" onclick="del()"><i class="fa fa-trash-o"></i></button> -->
+        </div>
+    </div>
+
+
+    <script src="script/app.js"></script>
+</body>
+</html>
